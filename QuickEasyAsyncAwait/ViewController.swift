@@ -31,7 +31,7 @@ class ViewController: UIViewController {
         /// Get the image via the async await method.
         Task {
             let image = try await getImageDataViaTheAsyncAwaitWay(request)
-            setImage(image, photoContainerViewBottom)
+            setImage(image, photoContainerViewBottom )
         }
     }
 
